@@ -21,7 +21,7 @@ jobs:
     runs-on: ${{matrix.listName}}
     strategy:
       matrix: 
-        listName: [ubuntu-latest, windwos-latest, macOS-latest]
+        listName: [ubuntu-latest, windows-latest, macOS-latest]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
